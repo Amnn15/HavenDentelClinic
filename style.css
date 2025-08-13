@@ -1373,6 +1373,19 @@ body {
     font-size: 12px;  /* Smaller text */
     padding: 4px;     /* Less padding */
   }
+/* Adjust size and move slightly down */
+.opening-hours-box {
+  min-height: 65px; /* Smaller height */
+  min-width: 200px; /* Smaller width */
+  top: 70px;        /* Moved slightly down from 60px */
+}
+
+.signboard {
+  font-size: 12px;  /* Slightly smaller text */
+  padding: 4px;     /* Less padding */
+}
+
+   
 #logo-text {
   left: 10% !important;
   top: 5% !important; /* Moves it closer to the top */
@@ -1448,5 +1461,6 @@ body {
   display: block;
 
 }
+
 
 
